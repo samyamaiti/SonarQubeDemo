@@ -21,7 +21,6 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-- task: SonarQubeAnalyze@4
 - task: SonarQubePrepare@4
   inputs:
     SonarQube: 'Sonarqube'
